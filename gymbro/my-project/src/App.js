@@ -7,16 +7,8 @@ function App() {
   return (
       <div className="App">
 
-        <div className="bg-green-500 py-6 ">
-          <div className=" bg-white/40 shadow-lg py-6 px-3 text-white  font-bold rounded-2xl ">
 
-            <h1>THis is a test</h1>
-
-          </div>
-        </div>
-
-
-        <header className="bg-white/40 backdrop-blur-sm sticky absolute z-40 shadow-lg top-0 ">
+        <header className="bg-white/40 backdrop-blur-sm sticky absolute z-40 shadow-lg top-0 rounded-b-2xl">
           <nav className="  mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
               <a href="#" className="-m-1.5 p-1.5">
@@ -91,6 +83,13 @@ function App() {
         </header>
 
 
+        <div className="flex flex-row border-8 border-blue-700 h-svh ">
+
+          <div className="bg-stoneAdd-100 shadow-2xl border-1 basis-1/2  h-6/7 m-12 mr-4 rounded-3xl">01</div>
+          <div className="bg-stone-100 shadow-2xl basis-1/2  h-6/7 m-12 ml-4 rounded-3xl">02</div>
+
+        </div>
+
 
         <div className="bg-white">
           <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
@@ -123,7 +122,6 @@ function App() {
         </div>
 
 
-
         <div className="relative isolate overflow-hidden bg-gray-900">
           <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
@@ -152,7 +150,6 @@ function App() {
             </defs>
           </svg>
         </div>
-
 
 
         <div className="bg-white py-24 sm:py-32">
@@ -232,7 +229,6 @@ function App() {
             </div>
           </div>
         </div>
-
 
 
         <footer className="bg-gray-800" aria-labelledby="footer-heading">
@@ -366,7 +362,6 @@ function App() {
             </div>
           </div>
         </footer>
-
 
 
       </div>
