@@ -2,6 +2,7 @@
 import header from "./Header";
 import './App.css';
 import  './index.css';
+import {Link} from 'react-router-dom'
 
 export default function Home() {
     return(
@@ -33,7 +34,7 @@ export default function Home() {
                             </button>
                         </div>
                         <div className="hidden lg:flex lg:gap-x-12">
-                            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Product</a>
+                            <Link to="/About" className="text-sm font-semibold leading-6 text-gray-900">Product</Link>
                             <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Features</a>
                             <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Marketplace</a>
                             <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Company</a>
