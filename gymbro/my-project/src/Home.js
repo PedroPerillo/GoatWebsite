@@ -2,6 +2,7 @@
 import header from "./Header";
 import './App.css';
 import  './index.css';
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 
 export default function Home() {
     return(
@@ -442,17 +443,17 @@ export default function Home() {
                 </div>
 
 
-                <footer className="bg-gray-700" aria-labelledby="footer-heading">
+                <footer className="relative isolate overflow-hidden bg-gray-900">
                     <h2 id="footer-heading" className="sr-only">Footer</h2>
                     <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
                         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-                            <div className="space-y-8">
-                                <img className="h-7"
-                                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                                     alt="Company name"/>
-                                <p className="text-sm leading-6 text-gray-300">Making the world a better place through
-                                    constructing
-                                    elegant hierarchies.</p>
+                            <div className="space-y-28">
+                                <img className="size-28 ml-12"
+                                     src="/goat_logo.png"
+                                     alt="GymBro"/>
+                                <div className="space-y-40">
+                                    <p className="text-blue-500 text-sm mr-44">FOLLOW US</p>
+                                </div>
                                 <div className="flex space-x-6">
                                     <a href="#" className="text-gray-500 hover:text-gray-400">
                                         <span className="sr-only">Facebook</span>
@@ -501,70 +502,73 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-                                <div className="md:grid md:grid-cols-2 md:gap-8">
+                                <div className="md:grid md:grid-cols-2 md:gap-56">
                                     <div>
-                                        <h3 className="text-sm font-semibold leading-6 text-white">Solutions</h3>
+                                        <h3 className="text-sm font-semibold leading-6 text-white">COMPANY</h3>
                                         <ul role="list" className="mt-6 space-y-4">
                                             <li>
                                                 <a href="#"
-                                                   className="text-sm leading-6 text-gray-300 hover:text-white">Marketing</a>
+                                                   className="text-sm leading-6 text-gray-300 hover:text-white">About Us</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                   className="text-sm leading-6 text-gray-300 hover:text-white">Analytics</a>
+                                                   className="text-sm leading-6 text-gray-300 hover:text-white">Careers</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                   className="text-sm leading-6 text-gray-300 hover:text-white">Commerce</a>
+                                                   className="text-sm leading-6 text-gray-300 hover:text-white">Press Room</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                   className="text-sm leading-6 text-gray-300 hover:text-white">Insights</a>
+                                                   className="text-sm leading-6 text-gray-300 hover:text-white">Facility</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"
+                                                   className="text-sm leading-6 text-gray-300 hover:text-white font-bold whitespace-nowrap ">Media Hotline:(801) 524-8100</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div className="mt-10 md:mt-0">
-                                        <h3 className="text-sm font-semibold leading-6 text-white">Support</h3>
+                                        <h3 className="text-sm font-semibold leading-6 text-white">RESOURCES</h3>
                                         <ul role="list" className="mt-6 space-y-4">
                                             <li>
                                                 <a href="#"
-                                                   className="text-sm leading-6 text-gray-300 hover:text-white">Pricing</a>
+                                                   className="text-sm leading-6 text-gray-300 hover:text-white">Contact Us</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                   className="text-sm leading-6 text-gray-300 hover:text-white">Documentation</a>
+                                                   className="text-sm leading-6 text-gray-300 hover:text-white whitespace-nowrap">Team Members</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                   className="text-sm leading-6 text-gray-300 hover:text-white">Guides</a>
+                                                   className="text-sm leading-6 text-gray-300 hover:text-white whitespace-nowrap">Member Services</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                   className="text-sm leading-6 text-gray-300 hover:text-white">API
-                                                    Status</a>
+                                                   className="text-sm leading-6 text-gray-300 hover:text-white">FAQ</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="md:grid md:grid-cols-2 md:gap-8">
+                                <div className="md:grid md:grid-cols-2 ml-40">
                                     <div>
-                                        <h3 className="text-sm font-semibold leading-6 text-white">Company</h3>
+                                        <h3 className="text-sm font-semibold leading-6 text-white">OUR POLICY</h3>
                                         <ul role="list" className="mt-6 space-y-4">
                                             <li>
                                                 <a href="#"
-                                                   className="text-sm leading-6 text-gray-300 hover:text-white">About</a>
+                                                   className="text-sm leading-6 text-gray-300 hover:text-white">Terms of Use</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                   className="text-sm leading-6 text-gray-300 hover:text-white">Blog</a>
+                                                   className="text-sm leading-6 text-gray-300 hover:text-white">Membership Policies</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                   className="text-sm leading-6 text-gray-300 hover:text-white">Jobs</a>
+                                                   className="text-sm leading-6 text-gray-300 hover:text-white">SMS Text Policy</a>
                                             </li>
                                             <li>
                                                 <a href="#"
-                                                   className="text-sm leading-6 text-gray-300 hover:text-white">Press</a>
+                                                   className="text-sm leading-6 text-gray-300 hover:text-white whitespace-nowrap">Do Not Sell My Personal Information</a>
                                             </li>
                                             <li>
                                                 <a href="#"
@@ -572,28 +576,12 @@ export default function Home() {
                                             </li>
                                         </ul>
                                     </div>
-                                    <div className="mt-10 md:mt-0">
-                                        <h3 className="text-sm font-semibold leading-6 text-white">Legal</h3>
-                                        <ul role="list" className="mt-6 space-y-4">
-                                            <li>
-                                                <a href="#"
-                                                   className="text-sm leading-6 text-gray-300 hover:text-white">Claim</a>
-                                            </li>
-                                            <li>
-                                                <a href="#"
-                                                   className="text-sm leading-6 text-gray-300 hover:text-white">Privacy</a>
-                                            </li>
-                                            <li>
-                                                <a href="#"
-                                                   className="text-sm leading-6 text-gray-300 hover:text-white">Terms</a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
                         <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-                            <p className="text-xs leading-5 text-gray-400">&copy; 2020 Your Company, Inc. All rights
+                            <p className="text-xs leading-5 text-gray-400">&copy; 2024 G.O.A.T, Inc. All rights
                                 reserved.</p>
                         </div>
                     </div>
