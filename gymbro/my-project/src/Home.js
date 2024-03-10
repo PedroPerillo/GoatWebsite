@@ -2,11 +2,8 @@
 import header from "./Header";
 import './App.css';
 import  './index.css';
-1-footer-jeff
 import { BrowserRouter, Routes, Route} from "react-router-dom";
-
 import {Link} from 'react-router-dom'
-main
 
 export default function Home() {
     return(
