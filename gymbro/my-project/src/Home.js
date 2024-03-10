@@ -2,7 +2,11 @@
 import header from "./Header";
 import './App.css';
 import  './index.css';
+1-footer-jeff
 import { BrowserRouter, Routes, Route} from "react-router-dom";
+
+import {Link} from 'react-router-dom'
+main
 
 export default function Home() {
     return(
@@ -10,7 +14,7 @@ export default function Home() {
             <div className="App">
 
 
-                <header className="bg-white/40 backdrop-blur-sm sticky absolute z-40 shadow-lg top-0">
+                <header className="bg-white/40 backdrop-blur-sm  absolute z-40 shadow-lg top-0">
                     <nav className="  mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
                          aria-label="Global">
                         <div className="flex lg:flex-1">
@@ -34,7 +38,7 @@ export default function Home() {
                             </button>
                         </div>
                         <div className="hidden lg:flex lg:gap-x-12">
-                            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Product</a>
+                            <Link to="/About" className="text-sm font-semibold leading-6 text-gray-900">Product</Link>
                             <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Features</a>
                             <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Marketplace</a>
                             <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Company</a>
