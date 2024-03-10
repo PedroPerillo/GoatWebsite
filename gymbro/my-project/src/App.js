@@ -4,10 +4,7 @@ import  './index.css';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from './Home';
 import Payment from './Payment';
-1-footer-jeff
-
 import About from './pages/About';
-main
 import Contact from './Contact';
 
 function App() {
