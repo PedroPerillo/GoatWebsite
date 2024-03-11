@@ -1,12 +1,12 @@
 import {ComponentPreview, Previews} from '@react-buddy/ide-toolbox'
 import {PaletteTree} from './palette'
-import StripeApp from "../StripeApp";
+import App from "../App";
 
 const ComponentPreviews = () => {
     return (
         <Previews palette={<PaletteTree/>}>
-            <ComponentPreview path="/StripeApp">
-                <StripeApp/>
+            <ComponentPreview path="/App">
+                <App/>
             </ComponentPreview>
         </Previews>
     )
