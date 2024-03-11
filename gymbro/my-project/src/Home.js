@@ -272,16 +272,6 @@ export default function Home() {
                 </div>
 
 
-                <div className="flex flex-row border-8 border-blue-700 h-svh ">
-
-                    <div className="bg-stoneAdd-100 shadow-2xl border-1 basis-1/2  h-6/7 m-12 mr-4 rounded-3xl">FIT
-                        CHECK
-                    </div>
-                    <div className="bg-stone-100 shadow-2xl basis-1/2  h-6/7 m-12 ml-4 rounded-3xl">GOAT</div>
-
-                </div>
-
-
                 <div className="bg-white">
                     <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
                         <div
