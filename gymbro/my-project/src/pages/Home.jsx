@@ -108,7 +108,7 @@ export default function Home() {
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <a href="#" aria-describedby="tier-hobby"
+                                            <a href="https://buy.stripe.com/test_aEUg1r9pv7xU3mw8wx" aria-describedby="tier-hobby"
                                                className="mt-8 block rounded-md bg-indigo-600 px-3.5 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Let's
                                                 Get in Shape</a>
                                         </div>
@@ -185,7 +185,7 @@ export default function Home() {
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <a href="#" aria-describedby="tier-team"
+                                            <a href="https://buy.stripe.com/test_4gwcPfdFL8BYf5e4gg" aria-describedby="tier-team"
                                                className="mt-8 block rounded-md bg-indigo-600 px-3.5 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Let's
                                                 get Ripped</a>
                                         </div>
