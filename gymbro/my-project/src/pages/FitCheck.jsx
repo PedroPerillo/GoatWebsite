@@ -1,6 +1,7 @@
 import PageLayout from "../components/PageLayout";
 import {Link} from "react-router-dom";
 
+
 export default function FitCheck () {
     return(
         <PageLayout>
@@ -24,4 +25,5 @@ export default function FitCheck () {
         </PageLayout>
     )
 }
+
 
