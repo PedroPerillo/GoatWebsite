@@ -1,3 +1,4 @@
+
 import './App.css';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from './pages/Home';
@@ -6,7 +7,8 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import FitCheck from './pages/FitCheck';
 
-export default function StripeApp () {
+
+export default function StripeApp() {
   return (
 
       <div className='App'>
@@ -25,5 +27,3 @@ export default function StripeApp () {
       </div>
   );
 }
-
-
