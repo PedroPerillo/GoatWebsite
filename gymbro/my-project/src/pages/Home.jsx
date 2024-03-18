@@ -142,7 +142,7 @@ export default function Home() {
                       </ul>
                     </div>
                     <a
-                      href="#"
+                      href="https://buy.stripe.com/test_aEUg1r9pv7xU3mw8wx"
                       aria-describedby="tier-hobby"
                       className="mt-8 block rounded-md bg-indigo-600 px-3.5 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
@@ -264,7 +264,7 @@ export default function Home() {
                       </ul>
                     </div>
                     <a
-                      href="#"
+                      href="https://buy.stripe.com/test_4gwcPfdFL8BYf5e4gg"
                       aria-describedby="tier-team"
                       className="mt-8 block rounded-md bg-indigo-600 px-3.5 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
@@ -304,8 +304,7 @@ export default function Home() {
                 G.O.A.T.
               </h2>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
-                Incididunt sint fugiat pariatur cupidatat consectetur sit cillum
-                anim id veniam aliqua proident excepteur commodo do ea.
+                Sculpt your future: Transform with GOAT!
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
@@ -348,13 +347,12 @@ export default function Home() {
           <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                Boost your productivity.
+                Fit Check
                 <br />
-                Start using our app today.
+                Empower Your Fitness Journey!
               </h2>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
-                Incididunt sint fugiat pariatur cupidatat consectetur sit cillum
-                anim id veniam aliqua proident excepteur commodo do ea.
+                Unleash Your Inner Strength
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a

@@ -28,9 +28,9 @@ export default function Header () {
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
                     <Link to="/About" className="text-sm font-semibold leading-6 text-gray-900">Product</Link>
-                    <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Features</a>
+                    <Link to="/FitCheck" className="text-sm font-semibold leading-6 text-gray-900">FitCheck</Link>
                     <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Marketplace</a>
-                    <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Company</a>
+                    <Link to="/Contact" className="text-sm font-semibold leading-6 text-gray-900">Contact</Link>
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                     <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Log in <span
