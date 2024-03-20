@@ -272,20 +272,23 @@ export default function Home() {
                     </a>
                   </div>
 
-                  <div className="flex flex-col items-start gap-x-8 gap-y-6 rounded-3xl p-8 ring-1 ring-gray-900/10 sm:gap-y-10 sm:p-10 lg:col-span-2 lg:flex-row lg:items-center">
+                  <div className="flex flex-col rounded-3xl p-12 bg-gray-900 lg:col-span-2 lg:items-center shadow-2xl relative h-56 ">
                     <div className="lg:min-w-0 lg:flex-1">
-                      <h3 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">
+                      <h3 className="text-lg font-semibold leading-8 tracking-tight text-white">
                         Discounted
                       </h3>
-                      <p className="mt-1 text-base leading-7 text-gray-600">
+                      <p className="mt-1 text-base leading-7 text-white">
                         "Exciting update - Unlock exclusive savings on gym app
-                        memberships: Get fit for less with our limited-time
+                        memberships: 
+                        <div className="mt-1 text-base leading-7 text-white pb-3">
+                        Get fit for less with our limited-time
                         discounts!"
+                        </div>
                       </p>
                     </div>
                     <a
                       href="#"
-                      className="rounded-md px-3.5 py-2 text-sm font-semibold leading-6 text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                      className="rounded-md px-3.5 py-2 text-sm font-semibold leading-6 bg-white text-gray-900 ring-1 ring-inset ring-indigo-200 hover:bg-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
                       Buy discounted license{" "}
                       <span aria-hidden="true">&rarr;</span>
@@ -297,222 +300,94 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-white">
-          <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-            <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
-              <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                G.O.A.T.
-              </h2>
-              <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
-                Sculpt your future: Transform with GOAT!
-              </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6">
-                <a
-                  href="#"
-                  className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-                >
-                  Get started
-                </a>
-                <a
-                  href="#"
-                  className="text-sm font-semibold leading-6 text-white"
-                >
-                  Learn more <span aria-hidden="true">→</span>
-                </a>
-              </div>
-              <svg
-                viewBox="0 0 1024 1024"
-                className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]"
-                aria-hidden="true"
+        <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
+          <div className="relative isolate overflow-hidden bg-gray-900 py-24 shadow-2xl sm:rounded-3xl">
+            <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              G.O.A.T.
+            </h2>
+            <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
+              Sculpt your future: Transform with GOAT!
+            </p>
+            <div className="mt-10 flex items-center justify-center gap-x-6">
+              <a
+                href="#"
+                className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
-                <circle
-                  cx="512"
-                  cy="512"
-                  r="512"
-                  fill="url(#827591b1-ce8c-4110-b064-7cb85a0b1217)"
-                  fill-opacity="0.7"
-                />
-                <defs>
-                  <radialGradient id="827591b1-ce8c-4110-b064-7cb85a0b1217">
-                    <stop stop-color="#7775D6" />
-                    <stop offset="1" stop-color="#E935C1" />
-                  </radialGradient>
-                </defs>
-              </svg>
+                Get started
+              </a>
+              <a
+                href="#"
+                className="text-sm font-semibold leading-6 text-white hover:text-gray-300"
+              >
+                Learn more <span aria-hidden="true">→</span>
+              </a>
             </div>
+            <svg
+              viewBox="0 0 1024 1024"
+              className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]"
+              aria-hidden="true"
+            >
+              <circle
+                cx="512"
+                cy="512"
+                r="512"
+                fill="url(#827591b1-ce8c-4110-b064-7cb85a0b1217)"
+                fill-opacity="0.7"
+              />
+              <defs>
+                <radialGradient id="827591b1-ce8c-4110-b064-7cb85a0b1217">
+                  <stop stop-color="#7775D6" />
+                  <stop offset="1" stop-color="#E935C1" />
+                </radialGradient>
+              </defs>
+            </svg>
           </div>
         </div>
 
-        <div className="relative isolate overflow-hidden bg-gray-900">
-          <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
-            <div className="mx-auto max-w-2xl text-center">
-              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                Fit Check
-                <br />
-                Empower Your Fitness Journey!
-              </h2>
-              <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
-                Unleash Your Inner Strength
-              </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6">
-                <a
-                  href="#"
-                  className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-white/20 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-                >
-                  Get started
-                </a>
-                <a
-                  href="#"
-                  className="text-sm font-semibold leading-6 text-white"
-                >
-                  Learn more <span aria-hidden="true">→</span>
-                </a>
-              </div>
+        <div className="mx-auto max-w-7xl sm:px-6 py-36 pb-44 pt-20 lg:px-8">
+          <div className="relative isolate overflow-hidden bg-gray-900 py-24 shadow-2xl sm:rounded-3xl">
+            <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              Fit Check
+            </h2>
+            <p className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">
+              Empower Your Fitness Journey!
+            </p>
+            <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
+              Unleash Your Inner Strength
+            </p>
+            <div className="mt-10 flex items-center justify-center gap-x-6">
+              <a
+                href="#"
+                className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+              >
+                Get started
+              </a>
+              <a
+                href="#"
+                className="text-sm font-semibold leading-6 text-white hover:text-gray-300"
+              >
+                Learn more <span aria-hidden="true">→</span>
+              </a>
             </div>
-          </div>
-          <svg
-            viewBox="0 0 1024 1024"
-            className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]"
-            aria-hidden="true"
-          >
-            <circle
-              cx="512"
-              cy="512"
-              r="512"
-              fill="url(#8d958450-c69f-4251-94bc-4e091a323369)"
-              fill-opacity="0.7"
-            />
-            <defs>
-              <radialGradient id="8d958450-c69f-4251-94bc-4e091a323369">
-                <stop stop-color="#7775D6" />
-                <stop offset="1" stop-color="#E935C1" />
-              </radialGradient>
-            </defs>
-          </svg>
-        </div>
-
-        <div className="bg-white py-24 sm:py-32">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl sm:text-center">
-              <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Simple no-tricks pricing
-              </h2>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
-                Distinctio et nulla eum soluta et neque labore quibusdam. Saepe
-                et quasi iusto modi velit ut non voluptas in. Explicabo id ut
-                laborum.
-              </p>
-            </div>
-            <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
-              <div className="p-8 sm:p-10 lg:flex-auto">
-                <h3 className="text-2xl font-bold tracking-tight text-gray-900">
-                  Lifetime membership
-                </h3>
-                <p className="mt-6 text-base leading-7 text-gray-600">
-                  Lorem ipsum dolor sit amet consect etur adipisicing elit.
-                  Itaque amet indis perferendis blanditiis repellendus etur
-                  quidem assumenda.
-                </p>
-                <div className="mt-10 flex items-center gap-x-4">
-                  <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">
-                    What’s included
-                  </h4>
-                  <div className="h-px flex-auto bg-gray-100"></div>
-                </div>
-                <ul
-                  role="list"
-                  className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6"
-                >
-                  <li className="flex gap-x-3">
-                    <svg
-                      className="h-6 w-5 flex-none text-indigo-600"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                        clip-rule="evenodd"
-                      />
-                    </svg>
-                    Private forum access
-                  </li>
-                  <li className="flex gap-x-3">
-                    <svg
-                      className="h-6 w-5 flex-none text-indigo-600"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                        clip-rule="evenodd"
-                      />
-                    </svg>
-                    Member resources
-                  </li>
-                  <li className="flex gap-x-3">
-                    <svg
-                      className="h-6 w-5 flex-none text-indigo-600"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                        clip-rule="evenodd"
-                      />
-                    </svg>
-                    Entry to annual conference
-                  </li>
-                  <li className="flex gap-x-3">
-                    <svg
-                      className="h-6 w-5 flex-none text-indigo-600"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-                        clip-rule="evenodd"
-                      />
-                    </svg>
-                    Official member t-shirt
-                  </li>
-                </ul>
-              </div>
-              <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
-                <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
-                  <div className="mx-auto max-w-xs px-8">
-                    <p className="text-base font-semibold text-gray-600">
-                      Pay once, own it forever
-                    </p>
-                    <p className="mt-6 flex items-baseline justify-center gap-x-2">
-                      <span className="text-5xl font-bold tracking-tight text-gray-900">
-                        $349
-                      </span>
-                      <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">
-                        USD
-                      </span>
-                    </p>
-                    <a
-                      href="#"
-                      className="mt-10 block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                    >
-                      Get access
-                    </a>
-                    <p className="mt-6 text-xs leading-5 text-gray-600">
-                      Invoices and receipts available for easy company
-                      reimbursement
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <svg
+              viewBox="0 0 1024 1024"
+              className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]"
+              aria-hidden="true"
+            >
+              <circle
+                cx="512"
+                cy="512"
+                r="512"
+                fill="url(#827591b1-ce8c-4110-b064-7cb85a0b1217)"
+                fill-opacity="0.7"
+              />
+              <defs>
+                <radialGradient id="827591b1-ce8c-4110-b064-7cb85a0b1217">
+                  <stop stop-color="#7775D6" />
+                  <stop offset="1" stop-color="#E935C1" />
+                </radialGradient>
+              </defs>
+            </svg>
           </div>
         </div>
       </PageLayout>
