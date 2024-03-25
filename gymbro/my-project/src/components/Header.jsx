@@ -28,8 +28,8 @@ export default function Header () {
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
                     <Link to="/About" className="text-sm font-semibold leading-6 text-gray-900">Product</Link>
+                    <Link to="/Goat" className="text-sm font-semibold leading-6 text-gray-900">G.O.A.T.</Link>
                     <Link to="/FitCheck" className="text-sm font-semibold leading-6 text-gray-900">FitCheck</Link>
-                    <a href="#" className="text-sm font-semibold leading-6 text-gray-900">Marketplace</a>
                     <Link to="/Contact" className="text-sm font-semibold leading-6 text-gray-900">Contact</Link>
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">

@@ -6,6 +6,7 @@ import Payment from './pages/Payment';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import FitCheck from './pages/FitCheck';
+import Goat from "./pages/Goat";
 
 
 export default function StripeApp() {
@@ -20,6 +21,7 @@ export default function StripeApp() {
                 <Route path="Payment" element={<Payment/>} />
                 <Route path="Contact" element={<Contact/>} />
                 <Route path="FitCheck" element={<FitCheck />} />
+                <Route path="Goat" element={<Goat />} />
                 
             </Routes>
           </BrowserRouter>

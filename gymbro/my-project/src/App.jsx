@@ -16,8 +16,8 @@ import "./App.css";
 // Make sure to call `loadStripe` outside of a component’s render to avoid
 // recreating the `Stripe` object on every render.
 // This is your test public API key.
-const stripePromise = loadStripe("pk_test_51NVofuL8g4I0K7uV3U2IGUgtVxBtzQ3N2SXxbElA5XU1tn8OZX6caY3mR4FaGsO1MUofRXggE2SI0KkfWQxBN4ie003us16Nee");
-
+//const stripePromise = loadStripe("pk_test_51NVofuL8g4I0K7uV3U2IGUgtVxBtzQ3N2SXxbElA5XU1tn8OZX6caY3mR4FaGsO1MUofRXggE2SI0KkfWQxBN4ie003us16Nee");
+const apiKey = process.env.API_KEY;
 const CheckoutForm = () => {
     const [clientSecret, setClientSecret] = useState('');
 
