@@ -4,13 +4,14 @@ export default function Footer (){
             <h2 id="footer-heading" className="sr-only">Footer</h2>
             <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-                    <div className="space-y-28">
+                    <div className="space-y-10">
+                        <div className="flex items-center">
                         <img className="size-28 ml-12"
                              src="/goat_logo.png"
                              alt="GymBro"/>
-                        <div className="space-y-40">
-                            <p className="text-blue-500 text-sm mr-44">FOLLOW US</p>
                         </div>
+                            <p className="text-blue-500 text-sm mr-44">FOLLOW US</p>
+                        
                         <div className="flex space-x-6">
                             <a href="#" className="text-gray-500 hover:text-gray-400">
                                 <span className="sr-only">Facebook</span>
