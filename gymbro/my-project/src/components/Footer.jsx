@@ -2,7 +2,7 @@ export default function Footer (){
     return (
         <footer className="relative isolate overflow-hidden bg-gray-900">
             <h2 id="footer-heading" className="sr-only">Footer</h2>
-            <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+            <div className="mx-auto max-w-7xl px-6 pb-8 sm:pt-24 lg:px-8 lg:pt-20">
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8">
                     <div className="space-y-10">
                         <div className="flex items-center">
@@ -71,19 +71,6 @@ export default function Footer (){
                                     </li>
                                     <li>
                                         <a href="#"
-                                           className="text-sm leading-6 text-gray-300 hover:text-white">Careers</a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                           className="text-sm leading-6 text-gray-300 hover:text-white">Press
-                                            Room</a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                           className="text-sm leading-6 text-gray-300 hover:text-white">Facility</a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
                                            className="text-sm leading-6 text-gray-300 hover:text-white font-bold whitespace-nowrap ">Media
                                             Hotline:(801) 524-8100</a>
                                     </li>
@@ -102,15 +89,6 @@ export default function Footer (){
                                            className="text-sm leading-6 text-gray-300 hover:text-white whitespace-nowrap">Team
                                             Members</a>
                                     </li>
-                                    <li>
-                                        <a href="#"
-                                           className="text-sm leading-6 text-gray-300 hover:text-white whitespace-nowrap">Member
-                                            Services</a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                           className="text-sm leading-6 text-gray-300 hover:text-white">FAQ</a>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -123,32 +101,13 @@ export default function Footer (){
                                            className="text-sm leading-6 text-gray-300 hover:text-white">Terms of
                                             Use</a>
                                     </li>
-                                    <li>
-                                        <a href="#"
-                                           className="text-sm leading-6 text-gray-300 hover:text-white">Membership
-                                            Policies</a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                           className="text-sm leading-6 text-gray-300 hover:text-white">SMS Text
-                                            Policy</a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                           className="text-sm leading-6 text-gray-300 hover:text-white whitespace-nowrap">Do
-                                            Not Sell My Personal Information</a>
-                                    </li>
-                                    <li>
-                                        <a href="#"
-                                           className="text-sm leading-6 text-gray-300 hover:text-white">Partners</a>
-                                    </li>
                                 </ul>
                             </div>
 
                         </div>
                     </div>
                 </div>
-                <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
+                <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-4">
                     <p className="text-xs leading-5 text-gray-400">&copy; 2024 G.O.A.T, Inc. All rights
                         reserved.</p>
                 </div>
