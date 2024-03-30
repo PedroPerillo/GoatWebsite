@@ -27,7 +27,7 @@ export default function Header () {
                     </button>
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
-                    <Link to="/About" className="text-sm font-semibold leading-6 text-gray-900">Product</Link>
+                    <Link to="/" className="text-sm font-semibold leading-6 text-gray-900">Home</Link>
                     <Link to="/Goat" className="text-sm font-semibold leading-6 text-gray-900">G.O.A.T.</Link>
                     <Link to="/FitCheck" className="text-sm font-semibold leading-6 text-gray-900">FitCheck</Link>
                     <Link to="/Contact" className="text-sm font-semibold leading-6 text-gray-900">Contact</Link>
