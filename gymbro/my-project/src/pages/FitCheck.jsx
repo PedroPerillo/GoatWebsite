@@ -11,7 +11,7 @@ export default function FitCheck() {
           </div>
         </div>
       </div>
-      <div class="flex flex-row">
+      <div class="flex flex-row justify-center">
         <div class="basis-1/4 py-5 bg-violet-200 border-2 rounded-md m-5 text-left">
           <div class="text-2xl font-bold text-black font-serif">
           Instruction:
@@ -39,18 +39,14 @@ export default function FitCheck() {
 
           </ul>
         </div>
-        <div class="basis-3/4 py-5 bg-violet-200 border-2 rounded-md m-5">
+        <div class="justify-center basis-2/4 py-5 bg-violet-200 border-2 rounded-md m-5">
           <img className="size-100 ml-12" src="/1.jpg" alt="GymBro" />
-        </div>
-
-        <div class="basis-3/4 py-5 bg-violet-200 border-2 rounded-md m-5">
-          03
         </div>
       </div>
       <div class="flex flex-row">
-        <div class="basis-1/2 py-5 bg-violet-200 border-2 rounded-md m-5">
+        <div class="jusstify-center basis-1/2 py-5 bg-violet-200 border-2 rounded-md m-5">
           Instruction:
-            <ul>
+            <ul className=''>
                 <br></br>
                 <br></br>
                 <li>Grade: Scale of A-F base on your performance</li>
