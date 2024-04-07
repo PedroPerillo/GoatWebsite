@@ -33,7 +33,7 @@ export default function Goat() {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-row justify-center">
+            <div className="flex bg flex-row justify-center">
                 <div className="p-10 basis-1/4 py-5 bg-violet-200 border-2 rounded-md m-5 text-left">
                     <div className="text-2xl font-bold text-black font-serif">
                         Instruction:
