@@ -300,6 +300,62 @@ export default function Home() {
           </div>
         </div>
 
+        <div className=" mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
+
+          <h1 className="mb-8 text-bold text-6xl text-slate-900 font-bold tracking-tight sm:text-5xl">
+            Train smarter with our G.O.A.T. Gyro!
+          </h1>
+          <div className="flex flex-row items-center gap-4 p-6 ">
+            <div className="basis-2/3  border-4 p-6 bg-slate-900 border-white rounded-3xl">
+              <ul role="list" className="items-center space-y-6 ">
+                <li className="flex items-center justify-center overflow-hidden rounded-md text-2xl font-bold shadow-lg bg-neutral-50 hover:bg-neutral-50/70 h-24 px-6 py-4 shadow">
+                  Gyroscope metrix
+                </li>
+                <li className="flex items-center justify-center overflow-hidden rounded-md text-2xl font-bold shadow-lg bg-neutral-50 hover:bg-neutral-50/70 h-24 px-6 py-4 shadow">
+                  Insane results
+                </li>
+                <li className="flex items-center justify-center overflow-hidden rounded-md text-2xl font-bold shadow-lg bg-neutral-50 hover:bg-neutral-50/70 h-24 px-6 py-4 shadow">
+                  Amazing pumps
+                </li>
+                <li className="flex items-center justify-center overflow-hidden rounded-md text-2xl font-bold shadow-lg bg-neutral-50 hover:bg-neutral-50/70 h-24 px-6 py-4 shadow">
+                  Enhanced workout
+                </li>
+                <li className="flex items-center justify-center overflow-hidden rounded-md text-2xl font-bold shadow-lg bg-neutral-50 hover:bg-neutral-50/70 h-24 px-6 py-4 shadow">
+                  More looks
+                </li>
+
+
+              </ul>
+
+            </div>
+            <div className="basis-1/3 border-4 border-white">
+              <div>
+                <div
+                    className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px] shadow-xl">
+                  <div
+                      className="w-[148px] h-[18px] bg-gray-800 top-0 rounded-b-[1rem] left-1/2 -translate-x-1/2 absolute"></div>
+                  <div className="h-[46px] w-[3px] bg-gray-800 absolute -start-[17px] top-[124px] rounded-s-lg"></div>
+                  <div className="h-[46px] w-[3px] bg-gray-800 absolute -start-[17px] top-[178px] rounded-s-lg"></div>
+                  <div className="h-[64px] w-[3px] bg-gray-800 absolute -end-[17px] top-[142px] rounded-e-lg"></div>
+                  <div className="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-white dark:bg-gray-800">
+                    <img src="/GoatMockup.png"
+                         className="dark:hidden w-[272px] h-[572px]" alt=""/>
+                    <img src="/GoatMockup.png"
+                         className="hidden dark:block w-[272px] h-[572px]" alt=""/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="">
+            <button type="button" className="rounded-md bg-indigo-600 px-10 py-5 mt-4 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+             Learn More
+            </button>
+
+          </div>
+
+        </div>
+
         <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
           <div className="relative isolate overflow-hidden bg-gray-900 py-24 shadow-2xl sm:rounded-3xl">
             <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">
@@ -310,14 +366,14 @@ export default function Home() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="#"
-                className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                  href="#"
+                  className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
                 Get started
               </a>
               <a
-                href="#"
-                className="text-sm font-semibold leading-6 text-white hover:text-gray-300"
+                  href="#"
+                  className="text-sm font-semibold leading-6 text-white hover:text-gray-300"
               >
                 Learn more <span aria-hidden="true">→</span>
               </a>
